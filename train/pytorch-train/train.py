@@ -19,7 +19,7 @@ import utils
 import dataset
 from keys import alphabet
 #Alphabet = [e.encode('utf-8') for e in alphabet]
-import models.crnn as crnn
+
 import models.efficient_densecrnn as densecrnn
 import distance
 from tensorboard_logger import configure, log_value
