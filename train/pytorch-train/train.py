@@ -105,7 +105,7 @@ def weights_init(m):
         m.bias.data.fill_(0)
 
 #crnn = crnn.CRNN(opt.imgH, nc, nclass, nh, ngpu)
-crnn=densecrnn.DenseCrnnEfficient(nclass=nclass,nh=nh,growth_rate=12,block_config=(3,3,3,3),
+crnn=densecrnn.DenseCrnnEfficient(nclass=nclass,nh=nh,growth_rate=12,block_config=(3,6,12,16),
                                   compression=0.5,
                                   num_init_features=24,bn_size=4,drop_rate=0,small=True)
 crnn.apply(weights_init)
