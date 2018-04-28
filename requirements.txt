@@ -6,5 +6,5 @@ kombu
 easydict
 Cython
 lmdb
-ensorboard_logger
+tensorboard_logger
 distance
