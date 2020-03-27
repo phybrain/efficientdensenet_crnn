@@ -10,6 +10,8 @@ memory efficient densenet+lstm+ctc实现中文识别
 3.tensorboard_log.sh
 训练可视化
 
+pytorch<0.2
+tensorboardX
 
 
 
@@ -18,8 +20,7 @@ memory efficient densenet+lstm+ctc实现中文识别
 
 
 
-
-参考:chineseocr,memory efficient densenet
+ref:chineseocr,memory efficient densenet
 
 
 
