@@ -1,4 +1,4 @@
-eventlet==0.20.1 # new version has bug
+eventlet==0.31.0 # new version has bug
 pytorch==0.2.0
 numpy==1.14.2
 requests
