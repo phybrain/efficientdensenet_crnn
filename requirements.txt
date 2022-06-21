@@ -1,6 +1,6 @@
 eventlet==0.20.1 # new version has bug
 pytorch==0.2.0
-numpy==1.14.2
+numpy==1.22.0
 requests
 kombu
 easydict
